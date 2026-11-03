@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-void waitingTime(int proccess[],int n ,int at [], int wt[],int bt[]){
+void Time(int proccess[],int n ,int at [], int wt[],int bt[]){
     wt[0]=0;
     int st[n];
     st[0]=at[0];
@@ -22,6 +22,7 @@ void ttime(int proccess[],int n ,int bt [], int wt[],int tt[]){
 
  int main(){
     int n;
+    string name="amme";
     cout<<"enter the number of process ";
     cin>>n;
     int proccess[n],at[n],bt[n],wt[n],tt[n];
@@ -33,7 +34,7 @@ void ttime(int proccess[],int n ,int bt [], int wt[],int tt[]){
          cout<<"enter the burst time of proccess"<<i+1<<":";
         cin>>bt[n];
     }
-    waitingTime(proccess,n,at,wt,bt);
+    Time(proccess,n,at,wt,bt);
     ttime(proccess,n,bt,wt,tt);
     cout<<"\n\n______________________________\n\n";
 
