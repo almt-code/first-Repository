@@ -34,7 +34,7 @@ void ttime(int proccess[],int n ,int bt [], int wt[],int tt[]){
          cout<<"enter the burst time of proccess"<<i+1<<":";
         cin>>bt[n];
     }
-    Time(proccess,n,at,wt,bt);
+    Time(proccess,n,at,wt,bt); 
     ttime(proccess,n,bt,wt,tt);
     cout<<"\n\n______________________________\n\n";
 
