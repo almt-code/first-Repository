@@ -39,7 +39,7 @@ void ttime(int proccess[],int n ,int bt [], int wt[],int tt[]){
     cout<<"\n\n______________________________\n\n";
 
     
-    cout<<"proccess"<<"\t\t"<<"arrval time"<<"\t\t"<<"bustr time"<<"\t\t"<<"waiting time"<<"\t\t"<<"turnaround time\n";
+    cout<<"proccess"<<"\t\t"<<"Arrval time"<<"\t\t"<<"bustr time"<<"\t\t"<<"waiting time"<<"\t\t"<<"turnaround time\n";
     for(int i=0;i<n;i++){
         cout<<proccess[i]<<"\t\t"<<at[i]<<"\t\t"<<bt[i]<<"\t\t"<<wt[i]<<"\t\t"<<tt[i]<<endl;
     }
