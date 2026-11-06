@@ -23,15 +23,15 @@ void ttime(int proccess[],int n ,int bt [], int wt[],int tt[]){
  int main(){
     int n;
     string name="amme";
-    cout<<"enter the number of process ";
+    cout<<"Enter the number of process ";
     cin>>n;
     int proccess[n],at[n],bt[n],wt[n],tt[n];
     int sumWt;
     for(int i=0;i<n;i++){
         proccess[i]=i+1;
-        cout<<"enter the arrval time of proccess"<<i+1<<":";
+        cout<<"Enter the arrval time of Proccess"<<i+1<<":";
         cin>>at[n];
-         cout<<"enter the burst time of proccess"<<i+1<<":";
+         cout<<"Enter the burst time of Proccess"<<i+1<<":";
         cin>>bt[n];
     }
     Time(proccess,n,at,wt,bt); 
